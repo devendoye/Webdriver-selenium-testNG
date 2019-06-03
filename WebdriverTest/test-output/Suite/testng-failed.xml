@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="exemple.Guru99CrossBrowserScript"/>
+      <class name="exemple.TestSouris"/>
+      <class name="exemple.TestAction"/>
+      <class name="exemple.testFacebook"/>
+      <class name="exemple.testAmazon"/>
+      <class name="exemple.TestHandle"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="exemple.TestSouris">
+        <methods>
+          <include name="testSouris"/>
+        </methods>
+      </class> <!-- exemple.TestSouris -->
+      <class name="exemple.TestHandle">
+        <methods>
+          <include name="testHandle"/>
+        </methods>
+      </class> <!-- exemple.TestHandle -->
+      <class name="exemple.testAmazon">
+        <methods>
+          <include name="SearchProduit"/>
+          <include name="linkCD"/>
+          <include name="AddCard"/>
+          <include name="SelectProduit"/>
+        </methods>
+      </class> <!-- exemple.testAmazon -->
+      <class name="exemple.TestAction">
+        <methods>
+          <include name="actionAlert"/>
+        </methods>
+      </class> <!-- exemple.TestAction -->
+      <class name="exemple.Guru99CrossBrowserScript">
+        <methods>
+          <include name="testParameterWithXML"/>
+        </methods>
+      </class> <!-- exemple.Guru99CrossBrowserScript -->
+      <class name="exemple.testFacebook">
+        <methods>
+          <include name="deconneexion"/>
+          <include name="connexion"/>
+        </methods>
+      </class> <!-- exemple.testFacebook -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

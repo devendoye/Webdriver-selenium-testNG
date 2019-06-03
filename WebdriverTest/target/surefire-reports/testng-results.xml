@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="37534" started-at="2019-06-03T18:01:47Z" finished-at="2019-06-03T18:02:25Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="37534" started-at="2019-06-03T18:01:47Z" finished-at="2019-06-03T18:02:25Z">
+      <class name="exemple.TestAction">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:exemple.TestAction@2c6a3f77]" name="beforeTest" is-config="true" duration-ms="12702" started-at="2019-06-03T20:01:47Z" finished-at="2019-06-03T20:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:exemple.TestHandle@1324409e]" name="beforeTest" is-config="true" duration-ms="10620" started-at="2019-06-03T20:02:00Z" finished-at="2019-06-03T20:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:exemple.TestSouris@3cda1055]" name="invokeBrowser" is-config="true" duration-ms="10943" started-at="2019-06-03T20:02:11Z" finished-at="2019-06-03T20:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="actionAlert()[pri:0, instance:exemple.TestAction@2c6a3f77]" name="actionAlert" duration-ms="326" started-at="2019-06-03T20:02:22Z" finished-at="2019-06-03T20:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionAlert -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:exemple.TestAction@2c6a3f77]" name="afterTest" is-config="true" duration-ms="63" started-at="2019-06-03T20:02:25Z" finished-at="2019-06-03T20:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:exemple.TestHandle@1324409e]" name="afterTest" is-config="true" duration-ms="71" started-at="2019-06-03T20:02:25Z" finished-at="2019-06-03T20:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:exemple.TestSouris@3cda1055]" name="closeBrowser" is-config="true" duration-ms="73" started-at="2019-06-03T20:02:25Z" finished-at="2019-06-03T20:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- exemple.TestAction -->
+      <class name="exemple.TestHandle">
+        <test-method status="PASS" signature="testHandle()[pri:0, instance:exemple.TestHandle@1324409e]" name="testHandle" duration-ms="2490" started-at="2019-06-03T20:02:22Z" finished-at="2019-06-03T20:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHandle -->
+      </class> <!-- exemple.TestHandle -->
+      <class name="exemple.TestSouris">
+        <test-method status="PASS" signature="testSouris()[pri:0, instance:exemple.TestSouris@3cda1055]" name="testSouris" duration-ms="227" started-at="2019-06-03T20:02:24Z" finished-at="2019-06-03T20:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSouris -->
+      </class> <!-- exemple.TestSouris -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
